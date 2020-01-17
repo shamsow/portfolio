@@ -1,0 +1,64 @@
+{
+  "experiences": [
+    {
+      "name": "Malaysia Trip 2020",
+      "link": "trip-2020",
+      "location": "Malaysia",
+      "weight": 2,
+      "tags": [
+        "travel"
+      ],
+      "date": "Dec 2019 - Jan 2020",
+      "short": "Visited Malaysia with a friend",
+      "description": "Spent the final night of the decade (New Year's Eve) in Kuala Lumpur, then spent a few beautiful days in Langkawi before returning back to Kuala Lumpur for some more adventures",
+      "photos": [
+        "/static/experiences/trip-2020/img-1.jpg"
+      ]
+    },
+    {
+      "name": "NC Tech Club",
+      "link": "nc-techclub",
+      "weight": 2,
+      "location": "Dhaka, Bangladesh",
+      "tags": [
+        "course"
+      ],
+      "date": "July 2019 - Oct 2019",
+      "short": "Polished my coding skills at a coding club",
+      "description": "Spent some time at a coding club refining my coding skills. Learnt a lot of things(not limited to code) from the instructors",
+      "photos": [
+        "/static/experiences/nc-techclub/img-1.jpeg"
+      ]
+    },
+    {
+      "name": "CS50",
+      "link": "cs50",
+      "weight": 4,
+      "location": "Dhaka, Bangladesh",
+      "tags": [
+        "course"
+      ],
+      "date": "2017 - 2018",
+      "short": "Got my first taste of coding from this online course offered by Harvard on edX",
+      "description": "At the beginning of 2017, I decided I would put my mind to it and learn programming. This course from Harvard equipped me with the foundation upon which I have built all of my coding skills",
+      "photos": [
+        "/static/experiences/cs50/img-1.jpg"
+      ]
+    },
+    {
+      "name": "CS5W",
+      "link": "cs50w",
+      "weight": 3,
+      "location": "Dhaka, Bangladesh",
+      "tags": [
+        "course"
+      ],
+      "date": "2018 - 2019",
+      "short": "Further developed my coding skills and dived deeper into web dev",
+      "description": "Started this course right after completing CS50. This course is what first sparked my passion for web development",
+      "photos": [
+        "/static/experiences/cs50w/img-1.jpeg"
+      ]
+    }
+  ]
+}

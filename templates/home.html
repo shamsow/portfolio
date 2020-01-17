@@ -1,0 +1,103 @@
+{% extends "base.html" %}
+
+{% block head %}
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+<link type="text/css" rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
+
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+<script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="wrapper fixed-wrapper desktop-only">
+        <section id="terminal">
+            <div id="terminal-container">
+                <div class="terminal">
+                    <div class="window-title">
+                        <div class="win-buttons">
+                            <a id="close" class="button" href="#"></a>
+                            <a id="min" class="button" href="#"></a>
+                            <a id="max" class="button" href="#"></a>
+                        </div>
+                        <span class="title">oh-my-zsh</span>
+                    </div>
+                    <div class="message">
+                        <span class='prompt'><span class='user'>shamsow</span><span class="at">@</span><span
+                                class="path">/home/sadat/{{ age }}</span>><span class="caret">$</span></span>
+                        <span class="typed"></span>
+                        <form>><span class="caret">$</span>&nbsp;<input type="text" name="response" disabled></input></form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="wrapper scroll-wrapper">
+        <div class="top-text">
+            <p class="text-title desktop-view">Sadat</p>
+            <p class="text-title desktop-view">Chowdhury</p>
+            <p class="text-title mobile-view">Sadat Chowdhury</p>
+            <div>
+                <a target="_blank" href="https://github.com/shamsow">
+                    <img class="title-logo" src="static/images/github.svg">
+                </a>
+                
+            </div>
+        </div>
+        <div class="middle-text">
+            <p class="text-content">
+                Avid learner. Really. I'm like a sponge, drop me into any situation and I'll absorb every bit of information possible and 
+                come up with the solutions.
+            </p>
+            <p class="text-content">
+                Proficient at Python, Javascript and C. I'm specialised in web dev and have experience working with:
+                <ul>
+                    <li>Django and Flask for Python</li>
+                    <li>ExpressJS, ReactJS, and NodeJS for Javascript</li>
+                </ul>
+            </p>
+
+            <p class="text-content">
+                I'm constantly working on projects that test my abilities and teach me a lot of things about programming.
+                These projects may not be the very useful to anyone else, but I've found that I learn quicker by doing rather than reading.
+            </p>
+
+            <p class="text-content">
+                Constantly pushing myself to my limits, I taught myself how to code during my final two years of High School, which I graduated in the summer of 2019.
+            </p>
+
+            <p class="text-content">
+                Love travelling (caught the travel bug from my Dad). <br>
+                Some of my earliest memories are from foreign countries and nothing relieves stress like flying to somewhere new.
+
+            </p>
+
+            <p class="text-content">
+                Been exercising religiously since 2016 (lost 18kg and kept it off). <br>
+                Trying to gain some muscle since 2019.
+            </p>
+
+            <p class="text-content">
+               Started learning the piano in September 2019
+            </p>
+
+            <p class="text-content">Contact me >>
+                <a target="_blank" href="mailto:sadatshams@gmail.com"><img class="title-logo" src="static/images/material_email.svg"></a>
+            </p>
+
+            <p class="text-content">Let's get in touch!</p>
+
+            <p class="text-content">Sadat Chowdhury</p>
+
+            <p class="text-content">For more about me, check out my <a href="/timeline">timeline</a></p>
+
+            <br>
+        </div>
+    </div>
+</div>
+{% endblock %}

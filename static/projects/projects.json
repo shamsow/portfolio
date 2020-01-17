@@ -1,0 +1,152 @@
+{
+    "projects": [
+        {
+            "name": "Binge",
+            "link": "django-binge",
+            "date": "2019",
+            "short": "Used Django to create a web app that interfaces with THeMovieDB",
+            "description": "This app interacts with TMDB to get trending shows and movies. Users can also login to add things to their watchlist",
+            "status": "complete",
+            "weight": 3,
+            "github": "https://github.com/shamsow/django-binge",
+            "tags": [
+                "Python",
+                "Django",
+                "SQL",
+                "Javascript"
+            ],
+            
+            "photos": [
+                "/static/projects/django-binge/image-1.png",
+                "/static/projects/django-binge/image-2.png",
+                "/static/projects/django-binge/image-3.png",
+                "/static/projects/django-binge/image-4.png",
+                "/static/projects/django-binge/image-5.png",
+                "/static/projects/django-binge/image-6.png",
+                "/static/projects/django-binge/image-7.png"
+            ]
+        },
+        {
+            "name": "Flack",
+            "link": "flask-flack",
+            "date": "2018",
+            "short": "Made a chat app similar in spirit to Slack",
+            "description": "Functions approximately like Slack. You can make channels and chat with people. Built using SocketIO so everything works on one page with no reloads",
+            "weight": 2,
+            "github": "https://github.com/shamsow/flask-flack",
+            "tags": [
+                "Python",
+                "Flask",
+                "Javascript",
+                "SocketIO"
+            ],
+            "photos": [
+                "/static/projects/flask-flack/image-1.png",
+                "/static/projects/flask-flack/image-2.gif"
+            ]
+        },
+        {
+            "name": "Nations",
+            "link": "flask-nations",
+            "date": 2018,
+            "short": "Messed around with Flask to make a country wiki",
+            "description": "Hacked this one together in one evening. This one was built right after I finished CS50 so I was tested out my comprehension of Python and Flask",
+            "weight": 1,
+            "tags": [
+                "Python",
+                "Flask"
+            ],
+            "photos": [
+                "/static/projects/flask-nations/image-1.png",
+                "/static/projects/flask-nations/image-2.gif"
+            ]
+        },
+        {
+            "name": "Astron",
+            "link": "flask-astron",
+            "date": 2018,
+            "short": "Gets the Astronomy Picture of the Day from the NASA API",
+            "description": "Uses the NASA API to get the Astronomy Picture of the Day for entered date along the description of the image",
+            "weight": 1,
+            "tags": [
+                "Python",
+                "Flask"
+            ],
+            "photos": [
+                "/static/projects/flask-astron/image-1.png",
+                "/static/projects/flask-astron/image-2.gif"
+            ]
+        },
+        {
+            "name": "Exercise Tracker",
+            "link": "exercise-tracker",
+            "date": 2019,
+            "short": "Log workouts and more",
+            "description": "Users can log workouts and more. The app is built using the MERN stack and I also built a fully functional REST API that the app uses",
+            "weight": 2,
+            "github": "https://github.com/shamsow/mern-exercise-tracker",
+            "tags": [
+                "NodeJS",
+                "ExpressJS",
+                "ReactJS",
+                "MongoDB"
+            ],
+            "photos": [
+                "/static/projects/exercise-tracker/image-1.png"
+            ]
+        },
+        {
+            "name": "Library 1.0",
+            "link": "express-library",
+            "date": 2019,
+            "short": "Search for books and get details about them",
+            "description": "Interacts with the Google Books API to get book data. Users can search for books and also limit results by author",
+            "weight": 3,
+            "github": "https://github.com/shamsow/express-library",
+            "tags": [
+                "NodeJS",
+                "ExpressJS",
+                "Javascript"
+            ],
+            "photos": [
+                "/static/projects/express-library/image-1.png"
+            ]
+        },
+        {
+            "name": "Library 2.0",
+            "link": "socketio-library",
+            "date": 2020,
+            "short": "Search for books and get details about them, now made a one page experience with no reloads",
+            "description": "Rebuilt Library 2.0 using SocketIO and added some refinements to make the experience smoother. All searches and book detail views are handled using sockets, so the page never reloads",
+            "weight": 4,
+            "github": "https://github.com/shamsow/express-socketio-library",
+            "tags": [
+                "NodeJS",
+                "ExpressJS",
+                "Javascript",
+                "SocketIO"
+            ],
+            "photos": [
+                "/static/projects/socketio-library/image-1.png"
+            ]
+        },
+        {
+            "name": "Snake",
+            "link": "snake",
+            "date": 2019,
+            "short": "Just the regular snake game we're all familiar with",
+            "description": "Made the snake game we're all familiar with using Python in Flask",
+            "weight": 2,
+            "github": "https://github.com/shamsow/snake",
+            "tags": [
+                "Python",
+                "Flask",
+                "Javascript",
+                "JQuery"
+            ],
+            "photos": [
+                "/static/projects/snake/image-1.png"
+            ]
+        }
+    ]
+  }

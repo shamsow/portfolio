@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+
+{% block head %}
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/timeline.css') }}">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+    <div class="row">
+        <div class="col s12 m4 l8">
+            <div class="col s12 m4 l8">
+                <span class="date">2020</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">flight_takeoff</i>
+                            <span class="title">Malaysia Trip</span>
+                        </div>
+                        <span class="content">
+                            Flew to Malaysia with a friend and spent New Year's there! This was my first international trip without my family and it definitely taught me
+                            a lot about taking on responsibilities and planning trips. Talk about starting off the decade with a bang!
+                        </span>
+                    </li>
+                </ul>
+
+                <span class="date">2019</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">school</i>
+                            <span class="title">Finished A Levels!</span>
+                        </div>
+                        <span class="content">After four pain staking years of hard work, finally finished O and A Levels and graduated high school with stellar grades!</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">laptop</i>
+                            <span class="title">NC Tech Club</span>
+                        </div>
+                        <span class="content">Participated in a coding club. Made some valuable connections, strengthened my coding foundations and learned a lot of important lessons</span>
+                    </li>
+                </ul>
+
+                <span class="date">2018</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">laptop</i>
+                            <span class="title">Practice</span>
+                        </div>
+                        <span class="content">Put my head down and cranked out project after project, testing out my new found coding skills. Most of them aren't any good but each of them made me a better coder</span>
+                    </li>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">book</i>
+                            <a href="https://www.edx.org/course/cs50s-web-programming-with-python-and-javascript" class="title">CS50W</a>
+                        </div>
+                        <span class="content">Dived deeper into web dev while doing the projects for this course. This course definitely dropped me in to the rabbit hole of web dev, and I love it</span>
+                    </li>
+                </ul>
+
+                <span class="date">2017</span>
+                <ul>
+                    <li>
+                        <div class="icon-title">
+                            <i class="tiny material-icons">book</i>
+                            <a href="https://www.edx.org/course/cs50s-introduction-to-computer-science" class="title">CS50</a>
+                        </div>
+                        <span class="content">Started my coding journey by completing this online course offered by Harvard on edX</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+    </div>
+
+    {% endblock %}
