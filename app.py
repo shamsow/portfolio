@@ -8,7 +8,7 @@ from flask import Flask, render_template, request, url_for, redirect
 app = Flask(__name__)
 
 # Ensure templates are auto-reloaded
-app.config["TEMPLATES_AUTO_RELOAD"] = True
+# app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 @app.route('/')
 def index():
