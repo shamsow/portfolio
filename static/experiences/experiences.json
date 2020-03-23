@@ -1,6 +1,21 @@
 {
   "experiences": [
     {
+      "name": "Python PH526x",
+      "link": "python-ph526x",
+      "location": "Dhaka, Bangladesh",
+      "weight": 3,
+      "tags": [
+        "course"
+      ],
+      "date": "Feb 2020 - March 2020",
+      "short": "Completed a course on using Python for Research",
+      "description": "This course on edX explores the research capabilities of Python. Got familiar with Pandas, numpy and scipy to work with datasets in various ways. Explored regression, classification using k-nearest-neighbors and AI prediction",
+      "photos": [
+        "/static/experiences/python-ph526x/img-1.jpg"
+      ]
+    },
+    {
       "name": "Malaysia Trip 2020",
       "link": "trip-2020",
       "location": "Malaysia",

@@ -2,8 +2,8 @@ $(function() {
   $(".typed").typed({
     strings: [
       "stats sadat.current<br/>" + 
-      "><span class='caret'>$</span> skills: python, javascript, Django, Flask, NodeJS, ExpressJS, C<br/> ^100" +
-      "><span class='caret'>$</span> hobbies: reading books, travel, working out <br/> ^300" +
+      "><span class='caret'>$</span> skills: Python, JavaScript, Django, Flask, NodeJS, ExpressJS, C<br/> ^100" +
+      "><span class='caret'>$</span> hobbies: reading books, travelling, working out <br/> ^300" +
       "><span class='caret'>$</span> alias: shamsow <br/>" 
     ],
     showCursor: true,
