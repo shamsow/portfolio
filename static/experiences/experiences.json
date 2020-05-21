@@ -1,6 +1,21 @@
 {
   "experiences": [
     {
+      "name": "CS50 AI",
+      "link": "cs50-ai",
+      "location": "Dhaka, Bangladesh",
+      "weight": 3,
+      "tags": [
+        "course"
+      ],
+      "date": "April 2020 - May 2020",
+      "short": "Took an AI course",
+      "description": "This course is an another installment in the series of CS courses offered by Harvard. Going by the source it's excellence is already guaranteed, but it's much better than I had expected. The lectures are clear and concise and the projects are well engineered to make the concepts comprehensible. AI problems explored include: Search, Knowledge, Uncertainty, Optimization, Neural Networks, Language and Machine Learning.",
+      "photos": [
+        "/static/experiences/cs50ai/img-1.png"
+      ]
+    },
+    {
       "name": "Python PH526x",
       "link": "python-ph526x",
       "location": "Dhaka, Bangladesh",
