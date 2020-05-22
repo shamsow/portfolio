@@ -181,8 +181,7 @@
                 "JQuery"
             ],
             "photos": [
-                "/static/projects/django-picmatch/image-1.png",
-                "/static/projects/django-picmatch/image-2.png"
+                "static/projects/ai-degrees/img-1.png"
             ]
         },
         {
