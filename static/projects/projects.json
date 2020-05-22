@@ -181,7 +181,8 @@
                 "JQuery"
             ],
             "photos": [
-                "static/projects/ai-degrees/img-1.png"
+                "static/projects/ai-degrees/img-1.png",
+                "static/projects/ai-degrees/img-2.png"
             ]
         },
         {
@@ -199,7 +200,8 @@
                 "SocketIO"
             ],
             "photos": [
-                "static/projects/ai-tictactoe/img-1.png"
+                "static/projects/ai-tictactoe/img-1.png",
+                "static/projects/ai-tictactoe/img-2.png"
             ]
         }
     ]
