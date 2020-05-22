@@ -3,7 +3,7 @@
         {
             "name": "Binge",
             "link": "django-binge",
-            "date": "2019",
+            "date": 2019,
             "short": "Used Django to create a web app that interfaces with THeMovieDB",
             "description": "This app interacts with TMDB to get trending shows and movies. Users can also login to add things to their watchlist",
             "status": "complete",
@@ -29,7 +29,7 @@
         {
             "name": "Flack",
             "link": "flask-flack",
-            "date": "2018",
+            "date": 2018,
             "short": "Made a chat app similar in spirit to Slack",
             "description": "Functions approximately like Slack. You can make channels and chat with people. Built using SocketIO so everything works on one page with no reloads",
             "weight": 2,
@@ -165,6 +165,43 @@
                 "/static/projects/django-picmatch/image-1.png",
                 "/static/projects/django-picmatch/image-2.png"
             ]
-        }
+        },
+        {
+            "name": "Degrees",
+            "link": "ai-degrees",
+            "date": 2020,
+            "short": "Find the shortest path between two actors!",
+            "description": "Uses Search AI to find the path between two Actors. The app takes two Actor names as input and outputs their path. This app is also the first time I've used AJAX to make it a no-reload experience.",
+            "weight": 2,
+            "github": "https://github.com/shamsow/ai-degrees",
+            "tags": [
+                "Python",
+                "Django",
+                "Javascript",
+                "JQuery"
+            ],
+            "photos": [
+                "/static/projects/django-picmatch/image-1.png",
+                "/static/projects/django-picmatch/image-2.png"
+            ]
+        },
+        {
+            "name": "Tic Tac Toe",
+            "link": "ai-tictactoe",
+            "date": 2020,
+            "short": "Play TicTacToe against an AI!",
+            "description": "Just a regular game of Tic Tac Toe, but be warned the AI is unbeatable XD",
+            "weight": 2,
+            "github": "https://github.com/shamsow/ai-tictactoe",
+            "tags": [
+                "Python",
+                "Flask",
+                "Javascript",
+                "SocketIO"
+            ],
+            "photos": [
+                "static/projects/ai-tictactoe/img-1.png"
+            ]
+        },
     ]
   }
