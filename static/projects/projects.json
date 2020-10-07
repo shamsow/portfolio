@@ -154,7 +154,7 @@
             "link": "django-picmatch",
             "date": 2020,
             "short": "Match the color scheme of two pictures!",
-            "description": "This app is pretty simple, it takes a reference image and histogram matches a souce image to it. It's definitely buggy when it comes to the matching but this one made as more of a experiment",
+            "description": "This app is pretty simple, it takes a reference image and histogram matches a source image to it. It's definitely buggy when it comes to the matching but this one made as more of a experiment",
             "weight": 2,
             "github": "https://github.com/shamsow/django-picmatch",
             "tags": [
@@ -181,8 +181,8 @@
                 "JQuery"
             ],
             "photos": [
-                "static/projects/ai-degrees/img-1.png",
-                "static/projects/ai-degrees/img-2.png"
+                "/static/projects/ai-degrees/img-1.png",
+                "/static/projects/ai-degrees/img-2.png"
             ]
         },
         {
@@ -200,8 +200,23 @@
                 "SocketIO"
             ],
             "photos": [
-                "static/projects/ai-tictactoe/img-1.png",
-                "static/projects/ai-tictactoe/img-2.png"
+                "/static/projects/ai-tictactoe/img-1.png",
+                "/static/projects/ai-tictactoe/img-2.png"
+            ]
+        },
+        {
+            "name": "Anilist Updater",
+            "link": "anilist-updater",
+            "date": 2020,
+            "short": "Update Anilist from MyAnimeList",
+            "weight": 4,
+            "github": "https://github.com/shamsow/anilit-updater",
+            "tags": [
+                "Python",
+                "Selenium"
+            ],
+            "photos": [
+                "/static/projects/anilist-updater/img-1.png"
             ]
         }
     ]
