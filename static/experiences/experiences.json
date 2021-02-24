@@ -1,6 +1,21 @@
 {
   "experiences": [
     {
+      "name": "How to Code: Simple Data",
+      "link": "htc1x",
+      "location": "Dhaka, Bangladesh",
+      "weight": 4,
+      "tags": [
+        "course"
+      ],
+      "date": "January 2021 - February 2021",
+      "short": "Took an AI course",
+      "description": "This course is provided by the University of British Columbia on edX. Although aimed at beginners, this course teaches some very important design methods which may be unknown to a lot of self taught programmers. They teach methods (they call them 'recipes') for designing functions as well as data. A strong emphasis is placed on writing tests along with the functions which makes the structure of the functions much easier to determine. The course is taught using BSL (Beginner Student Language) which is a remarkably simple language. This forces us to rely on these design methods to create incredible programs, which would otherwise be very difficult.",
+      "photos": [
+        "/static/experiences/htc1x/img-1.jpg"
+      ]
+    },
+    {
       "name": "CS50 AI",
       "link": "cs50-ai",
       "location": "Dhaka, Bangladesh",
@@ -63,7 +78,7 @@
     {
       "name": "CS50",
       "link": "cs50",
-      "weight": 4,
+      "weight": 5,
       "location": "Dhaka, Bangladesh",
       "tags": [
         "course"
