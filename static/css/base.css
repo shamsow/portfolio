@@ -40,11 +40,15 @@ a:hover {
 }
 
 a::selection,
-span::selection {
-  background: #ffb7b7; /* WebKit/Blink Browsers */
+span::selection,
+p::selection,
+li::selection {
+  background: #a8f0e4; /* WebKit/Blink Browsers */
 }
 
 a::selection,
+p::selection,
+li::selection,
 span::-moz-selection {
-  background: #ffb7b7; /* Gecko Browsers */
+  background: #a8f0e4; /* Gecko Browsers */
 }
