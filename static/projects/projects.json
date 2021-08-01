@@ -210,7 +210,7 @@
             "date": 2020,
             "short": "Update Anilist from MyAnimeList",
             "weight": 4,
-            "github": "https://github.com/shamsow/anilit-updater",
+            "github": "https://github.com/shamsow/anilist-updater",
             "tags": [
                 "Python",
                 "Selenium"
