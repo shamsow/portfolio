@@ -10,6 +10,7 @@ app = Flask(__name__)
 # Ensure templates are auto-reloaded
 # app.config["TEMPLATES_AUTO_RELOAD"] = True
 
+
 @app.route('/')
 def index():
     age = int((datetime.date.today() - datetime.date(2000, 11, 11)).days / 365)
@@ -28,14 +29,16 @@ def projects():
 
     tag = request.args.get('tags')
     if tag is not None:
-        data = [project for project in data if tag.lower() in [project_tag.lower() for project_tag in project['tags']]]
+        data = [project for project in data if tag.lower() in [project_tag.lower()
+                                                               for project_tag in project['tags']]]
 
     return render_template('projects.html', projects=data, tag=tag)
 
 
 @app.route('/experiences')
 def experiences():
-    experiences = get_static_json("static/experiences/experiences.json")['experiences']
+    experiences = get_static_json(
+        "static/experiences/experiences.json")['experiences']
     experiences.sort(key=order_projects_by_weight, reverse=True)
     return render_template('projects.html', projects=experiences, tag=None)
 
@@ -50,7 +53,8 @@ def order_projects_by_weight(projects):
 @app.route('/projects/<title>')
 def project(title):
     projects = get_static_json("static/projects/projects.json")['projects']
-    experiences = get_static_json("static/experiences/experiences.json")['experiences']
+    experiences = get_static_json(
+        "static/experiences/experiences.json")['experiences']
 
     in_project = next((p for p in projects if p['link'] == title), None)
     # print(in_project)
