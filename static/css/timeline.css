@@ -1,32 +1,83 @@
 .date {
-  display:block;
+  display: block;
   color: #303030;
   font-size: 20px;
 }
 
-.title{
-  color: #1377BD;
+.title {
+  color: #1377bd;
   font-size: 16px;
   margin: 4px;
-  font-weight:500;
+  font-weight: 500;
 }
 
 .title:hover {
   text-decoration: none !important;
 }
 
-.content{
-  display:block;
+.content {
+  display: block;
   color: #303030;
-  margin:4px;
-  font-weight:300;
+  margin: 4px;
+  font-weight: 300;
 }
 
-.container{
-  max-width:750px;
+.container {
+  max-width: 750px;
 }
 
-.icon-title{
-    display: flex;
-    align-items: center;
+.icon-title {
+  display: flex;
+  align-items: center;
+}
+
+ul.timeline-event {
+  list-style-type: none;
+  counter-reset: stepCount;
+}
+
+ul.timeline-event li {
+  /* You need to turn on relative positioning so the line is placed relative to the item rather than absolutely on the page */
+  position: relative;
+
+  /* Use padding to space things out rather than margins as the line would get broken up otherwise */
+  margin: 0;
+  padding-bottom: 1em;
+  padding-left: 20px;
+}
+
+/* The actual line being placed before each list item, tweak width and color as appropriate */
+ul.timeline-event li:before {
+  background-color: #2ea2d8;
+  width: 2px;
+  content: "";
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 5px;
+}
+
+ul.timeline-event li::after {
+  content: "";
+  position: absolute;
+  border: solid #1b6283;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+
+  left: 1px;
+  top: 1em;
+
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+/* Start the line further down on the first list item */
+ul.timeline-event li:first-child:before {
+  top: 15px;
+}
+
+/* Stop the line short on the final list item */
+ul.timeline-event li:last-child:before {
+  height: 1em;
 }

@@ -1,20 +1,17 @@
 {% extends "base.html" %}
 
 {% block head %}
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/timeline.css') }}">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 {% endblock %}
 
 {% block body %}
+<!-- <div class="toTop">Back to Top</div> -->
 <div class="container">
     <div class="row">
         <div class="col s12 m4 l8">
             <div class="col s12 m4 l8">
                 <span class="date">2021</span>
-                <ul>
+                <ul class="timeline-event">
                     <li>
                         <div class="icon-title">
                             <i class="tiny material-icons">book</i>
@@ -27,7 +24,7 @@
                     </li>
                 </ul>
                 <span class="date">2020</span>
-                <ul>
+                <ul class="timeline-event">
                     <li>
                         <div class="icon-title">
                             <i class="tiny material-icons">school</i>
@@ -75,7 +72,7 @@
                 </ul>
 
                 <span class="date">2019</span>
-                <ul>
+                <ul class="timeline-event">
                     <li>
                         <div class="icon-title">
                             <i class="tiny material-icons">school</i>
@@ -93,7 +90,7 @@
                 </ul>
 
                 <span class="date">2018</span>
-                <ul>
+                <ul class="timeline-event">
                     <li>
                         <div class="icon-title">
                             <i class="tiny material-icons">code</i>
@@ -118,7 +115,7 @@
                 </ul>
 
                 <span class="date">2017</span>
-                <ul>
+                <ul class="timeline-event">
                     <li>
                         <div class="icon-title">
                             <i class="tiny material-icons">book</i>
