@@ -1,5 +1,6 @@
 {
     "projects": [
+        
         {
             "name": "Binge",
             "link": "django-binge",
@@ -217,6 +218,26 @@
             ],
             "photos": [
                 "/static/projects/anilist-updater/img-1.png"
+            ]
+        },
+        {
+            "name": "HomeMaker",
+            "link": "django-react-homemaker",
+            "date": 2022,
+            "short": "An all-in-one home meal planning solution!",
+            "status": "complete",
+            "weight": 5,
+            "github": "https://github.com/shamsow/django-react-homemaker",
+            "tags": [
+                "Python",
+                "Django",
+                "NodeJS",
+                "ReactJS"
+            ],
+            
+            "photos": [
+                "/static/projects/django-react-homemaker/img-1.png",
+                "/static/projects/django-react-homemaker/img-2.gif"
             ]
         }
     ]
