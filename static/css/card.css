@@ -42,14 +42,14 @@
   }
 
 .card-image {
-    max-width:400px;
+    max-width:320px;
     display: flex;
     justify-content: center;
 }
 
 .card .card-image img.card-image {
     max-height: 180px;
-    min-height: 180px;
+    /* min-height: 180px; */
     width: auto;
 }
 
