@@ -3,6 +3,36 @@ body {
   font-family: 'Open Sans', sans-serif;
 }
 
+.moving-title {
+  font-weight: 600;
+  font-size: 2em;
+}
+
+.moving-title .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.1em;
+  padding-right: 0.05em;
+  padding-bottom: 0.15em;
+}
+
+.moving-title .line {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  height: 3px;
+  width: 100%;
+  background-color: #000000;
+  transform-origin: 100% 100%;
+  bottom: 0;
+}
+
+.moving-title .letter {
+  display: inline-block;
+  line-height: 1em;
+  opacity: 0;
+}
+
 .top-text{
     min-height: calc(100vh - 128px);
     display: flex;
@@ -64,12 +94,14 @@ ul li a {
     opacity: 0.4;
     filter: alpha(opacity=40);
     text-decoration:none;
+    transition: all 0.2s ease-in-out;
 }
 
 .title-logo:hover{
     opacity: 0.8;
     filter: alpha(opacity=80);
     text-decoration:none;
+    transform: scale(1.02);
 }
 
 .mobile-view {
@@ -260,6 +292,9 @@ ul li a {
   }
   .top-text p {
     font-size: 40px;
+  }
+  .moving-title {
+    font-size: 1.5em;
   }
 
   #terminal .terminal {

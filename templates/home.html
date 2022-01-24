@@ -6,10 +6,13 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
 <link type="text/css" rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script> -->
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css"> -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/typed.js/1.1.1/typed.min.js'></script>
 
 <link type="text/css" rel="stylesheet" href="{{ url_for('static', filename = 'css/home.css') }}">
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
+
 <script type="text/javascript" src="{{ url_for('static', filename = 'js/home.js') }}"></script>
 {% endblock %}
 
@@ -42,6 +45,13 @@
             <p class="text-title desktop-view">Sadat</p>
             <p class="text-title desktop-view">Chowdhury</p>
             <p class="text-title mobile-view">Sadat Chowdhury</p>
+            <h1 class="moving-title desktop-view">
+                <span class="text-wrapper">
+                  <span class="letters">Full Stack Web Developer </span>
+                  <span class="line"></span>
+                </span>
+            </h1>
+            <h1 class="moving-title mobile-view"> Full Stack Web Developer</h1>
             <div>
                 <a target="_blank" href="https://www.linkedin.com/in/sadat-shams-chowdhury/">
                     <img class="title-logo" src="static/images/linkedin-logo.svg">
@@ -77,28 +87,16 @@
             </p>
 
             <p class="text-content">
-                Love travelling (caught the travel bug from my Dad). <br>
+                Love travelling. <br>
                 Some of my earliest memories are from foreign countries and nothing relieves stress like flying to somewhere new.
 
             </p>
 
-            <p class="text-content">
-                Been exercising religiously since 2016 (lost 18kg and kept it off). <br>
-                Trying to gain some muscle since 2019.
-            </p>
-
-            <p class="text-content">
-               Started learning the piano in September 2019
-            </p>
-
-            <p class="text-content">Contact me >>
-                <a target="_blank" href="mailto:sadatshams@gmail.com"><img class="title-logo" src="static/images/material_email.svg"></a>
-            </p>
 
             <p class="text-content">Let's get in touch!</p>
-
-            <p class="text-content">Sadat Chowdhury</p>
-
+            <p class="text-content">Contact me &rarr;
+                <a target="_blank" href="mailto:sadatshams@gmail.com"><img class="title-logo" src="static/images/material_email.svg"></a>
+            </p>
             <p class="text-content">For more about me, check out my <a href="/timeline">timeline</a></p>
 
             <br>
