@@ -104,6 +104,14 @@ ul li a {
     transform: scale(1.02);
 }
 
+.grad-text {
+  /* background: linear-gradient(285deg,#00d4ff,#ff4092,#635bff); */
+  background: linear-gradient(-285deg, #536aff, #7e6aff, #9f6aff, #bc6aff, #d66aff, #b485ff, #9899ff, #87a7ff, #47beff, #00d3ff, #00e4fd, #2ff2e6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
 .mobile-view {
   display: none;
 }
