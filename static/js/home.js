@@ -2,9 +2,10 @@ $(function () {
   $(".typed").typed({
     strings: [
       "stats sadat.current<br/>" +
+        "><span class='caret'>$</span> location: Korea<br/> ^100" +
+        "><span class='caret'>$</span> hobbies: reading books, travelling, working out <br/> ^100" +
         "><span class='caret'>$</span> skills: Python, JavaScript, Django, Flask, NodeJS, ExpressJS, ReactJS, C, C++<br/> ^100" +
-        "><span class='caret'>$</span> education: Double majoring in Computer Science and Business and Technology Management at KAIST<br/> ^100" +
-        "><span class='caret'>$</span> hobbies: reading books, travelling, working out <br/>",
+        "><span class='caret'>$</span> education: Double majoring in Computer Science and Business and Technology Management at KAIST (Junior)<br/> ^100",
     ], // Limit strings to 4 lines
     showCursor: true,
     cursorChar: "_",
